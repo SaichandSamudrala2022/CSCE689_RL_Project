@@ -10,6 +10,7 @@ OR if the above does not work:
   Install stable-baseline3, gym, pytorch,scipy, and sb3-contrib whose versions are mentioned in the requirements.txt.
 
 Run following commands in the terminal for the respective algorithm:
+
 python GenSolEvalComp_Pipeline.py --RL_algo PPO
 
 python GenSolEvalComp_Pipeline.py --RL_algo A2C
