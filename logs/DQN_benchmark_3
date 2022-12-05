@@ -1,0 +1,12504 @@
+******************************
+
+Working on benchmark_reduced/test_benchmark_3.gr
+
+gridParameters {'gridSize': [8, 8, 2], 'verticalCapacity': [0.0, 4.0], 'horizontalCapacity': [4.0, 0.0], 'minWidth': [1.0, 1.0], 'minSpacing': [0.0, 0.0], 'viaSpacing': [0.0, 0.0], 'Origin': [0.0, 0.0], 'tileWidth': 10.0, 'tileHeight': 10.0, 'reducedCapacitySpecify': {'1': [1, 2, 2, 1, 3, 2, 3], '2': [1, 3, 2, 1, 4, 2, 3], '3': [4, 1, 2, 4, 2, 2, 3]}, 'numNet': 20, 'netInfo': [{'netName': 'A1', 'netID': 1, 'numPins': 3, 'minWidth': 1.0, '1': [29, 22, 1], '2': [54, 28, 1], '3': [31, 6, 1]}, {'netName': 'A2', 'netID': 2, 'numPins': 4, 'minWidth': 1.0, '1': [36, 25, 1], '2': [73, 77, 1], '3': [49, 41, 1], '4': [52, 29, 1]}, {'netName': 'A3', 'netID': 3, 'numPins': 5, 'minWidth': 1.0, '1': [41, 6, 1], '2': [48, 24, 1], '3': [24, 69, 1], '4': [29, 21, 1], '5': [38, 14, 1]}, {'netName': 'A4', 'netID': 4, 'numPins': 2, 'minWidth': 1.0, '1': [57, 29, 1], '2': [30, 55, 1]}, {'netName': 'A5', 'netID': 5, 'numPins': 4, 'minWidth': 1.0, '1': [29, 73, 1], '2': [64, 49, 1], '3': [61, 53, 1], '4': [70, 58, 1]}, {'netName': 'A6', 'netID': 6, 'numPins': 4, 'minWidth': 1.0, '1': [40, 6, 1], '2': [79, 77, 1], '3': [62, 26, 1], '4': [58, 38, 1]}, {'netName': 'A7', 'netID': 7, 'numPins': 5, 'minWidth': 1.0, '1': [45, 8, 1], '2': [61, 3, 1], '3': [16, 47, 1], '4': [42, 76, 1], '5': [64, 53, 1]}, {'netName': 'A8', 'netID': 8, 'numPins': 3, 'minWidth': 1.0, '1': [67, 4, 1], '2': [26, 26, 1], '3': [38, 65, 1]}, {'netName': 'A9', 'netID': 9, 'numPins': 2, 'minWidth': 1.0, '1': [1, 47, 1], '2': [53, 18, 1]}, {'netName': 'A10', 'netID': 10, 'numPins': 2, 'minWidth': 1.0, '1': [55, 79, 1], '2': [36, 61, 1]}, {'netName': 'A11', 'netID': 11, 'numPins': 4, 'minWidth': 1.0, '1': [51, 1, 1], '2': [47, 33, 1], '3': [24, 13, 1], '4': [66, 76, 1]}, {'netName': 'A12', 'netID': 12, 'numPins': 2, 'minWidth': 1.0, '1': [26, 70, 1], '2': [56, 6, 1]}, {'netName': 'A13', 'netID': 13, 'numPins': 5, 'minWidth': 1.0, '1': [15, 46, 1], '2': [3, 15, 1], '3': [65, 78, 1], '4': [59, 33, 1], '5': [25, 73, 1]}, {'netName': 'A14', 'netID': 14, 'numPins': 2, 'minWidth': 1.0, '1': [39, 25, 1], '2': [21, 72, 1]}, {'netName': 'A15', 'netID': 15, 'numPins': 4, 'minWidth': 1.0, '1': [28, 53, 1], '2': [38, 74, 1], '3': [17, 6, 1], '4': [55, 67, 1]}, {'netName': 'A16', 'netID': 16, 'numPins': 4, 'minWidth': 1.0, '1': [51, 37, 1], '2': [3, 67, 1], '3': [33, 74, 1], '4': [8, 12, 1]}, {'netName': 'A17', 'netID': 17, 'numPins': 2, 'minWidth': 1.0, '1': [36, 40, 1], '2': [43, 53, 1]}, {'netName': 'A18', 'netID': 18, 'numPins': 4, 'minWidth': 1.0, '1': [21, 70, 1], '2': [74, 58, 1], '3': [8, 63, 1], '4': [53, 17, 1]}, {'netName': 'A19', 'netID': 19, 'numPins': 2, 'minWidth': 1.0, '1': [29, 69, 1], '2': [46, 68, 1]}, {'netName': 'A20', 'netID': 20, 'numPins': 5, 'minWidth': 1.0, '1': [62, 73, 1], '2': [70, 13, 1], '3': [39, 35, 1], '4': [75, 25, 1], '5': [64, 35, 1]}], 'reducedCapacity': ['3']}
+Start burn in with search algorithm...
+Burn in with search algorithm finished.
+Reward:  -4062.0
+Positive two pin num: 4/48
+
+New loop!
+Episode: 2
+Reward:  -4402.0
+Positive two pin num: 4/48
+
+New loop!
+Episode: 3
+Reward:  -3812.0
+Positive two pin num: 5/48
+
+New loop!
+Episode: 4
+Reward:  -3514.0
+Positive two pin num: 7/48
+
+New loop!
+Episode: 5
+Reward:  -1550.0
+Positive two pin num: 17/48
+
+New loop!
+Episode: 6
+Reward:  -975.0
+Positive two pin num: 20/48
+
+New loop!
+Episode: 7
+Reward:  355.0
+Positive two pin num: 27/48
+
+New loop!
+Episode: 8
+Reward:  2589.0
+Positive two pin num: 38/48
+
+New loop!
+Episode: 9
+Reward:  2745.0
+Positive two pin num: 39/48
+
+New loop!
+Episode: 10
+Reward:  2820.0
+Positive two pin num: 40/48
+
+New loop!
+Episode: 11
+Reward:  3131.0
+Positive two pin num: 41/48
+
+New loop!
+Episode: 12
+Reward:  2563.0
+Positive two pin num: 41/48
+
+New loop!
+Episode: 13
+Reward:  3378.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 14
+Reward:  2932.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 15
+Reward:  2310.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 16
+Reward:  2878.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 17
+Reward:  2197.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 18
+Reward:  3034.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 19
+Reward:  2860.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 20
+Reward:  2993.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 21
+Reward:  2944.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 22
+Reward:  3100.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 23
+Reward:  2544.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 24
+Reward:  3090.0
+Positive two pin num: 42/48
+
+New loop!
+Episode: 25
+Reward:  3483.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 26
+Reward:  2143.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 27
+Reward:  2729.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 28
+Reward:  3399.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 29
+Reward:  3209.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 30
+Reward:  3138.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 31
+Reward:  3025.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 32
+Reward:  3118.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 33
+Reward:  3409.0
+Positive two pin num: 43/48
+
+New loop!
+Episode: 34
+Reward:  3491.0
+Positive two pin num: 44/48
+
+New loop!
+Episode: 35
+Reward:  3259.0
+Positive two pin num: 44/48
+
+New loop!
+Episode: 36
+Reward:  4103.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 37
+Reward:  3155.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 38
+Reward:  3245.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 39
+Reward:  2722.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 40
+Reward:  3122.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 41
+Reward:  3234.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 42
+Reward:  4122.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 43
+Reward:  3753.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 44
+Reward:  3714.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 45
+Reward:  4052.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 46
+Reward:  2869.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 47
+Reward:  4024.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 48
+Reward:  3298.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 49
+Reward:  4103.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 50
+Reward:  3756.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 51
+Reward:  3692.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 52
+Reward:  3925.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 53
+Reward:  4086.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 54
+Reward:  4121.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 55
+Reward:  3940.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 56
+Reward:  3603.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 57
+Reward:  3543.0
+Positive two pin num: 46/48
+
+New loop!
+Episode: 58
+Reward:  4258.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 59
+Reward:  3953.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 60
+Reward:  3761.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 61
+Reward:  3807.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 62
+Reward:  4097.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 63
+Reward:  4120.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 64
+Reward:  3728.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 65
+Reward:  4297.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 66
+Reward:  3635.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 67
+Reward:  4315.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 68
+Reward:  3953.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 69
+Reward:  3870.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 70
+Reward:  4051.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 71
+Reward:  3676.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 72
+Reward:  3764.0
+Positive two pin num: 47/48
+
+New loop!
+Episode: 73
+Reward:  4464.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 74
+Reward:  3733.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 75
+Reward:  3924.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 76
+Reward:  4112.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 77
+Reward:  4249.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 78
+Reward:  4123.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 79
+Reward:  4139.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 80
+Reward:  4097.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 81
+Reward:  4134.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 82
+Reward:  4336.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 83
+Reward:  4029.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 84
+Reward:  3951.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 85
+Reward:  4282.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 86
+Reward:  3909.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 87
+Reward:  4436.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 88
+Reward:  4326.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 89
+Reward:  4304.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 90
+Reward:  4466.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 91
+Reward:  3846.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 92
+Reward:  3765.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 93
+Reward:  4337.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 94
+Reward:  4270.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 95
+Reward:  4250.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 96
+Reward:  3759.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 97
+Reward:  4046.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 98
+Reward:  3836.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 99
+Reward:  4279.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 100
+Reward:  4274.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 101
+Reward:  4132.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 102
+Reward:  4157.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 103
+Reward:  3949.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 104
+Reward:  4146.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 105
+Reward:  3935.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 106
+Reward:  4296.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 107
+Reward:  4308.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 108
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 109
+Reward:  4327.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 110
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 111
+Reward:  4233.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 112
+Reward:  4252.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 113
+Reward:  4127.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 114
+Reward:  4076.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 115
+Reward:  3765.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 116
+Reward:  4295.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 117
+Reward:  3636.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 118
+Reward:  4079.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 119
+Reward:  4088.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 120
+Reward:  4156.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 121
+Reward:  4460.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 122
+Reward:  4287.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 123
+Reward:  4055.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 124
+Reward:  4310.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 125
+Reward:  4324.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 126
+Reward:  4297.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 127
+Reward:  3938.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 128
+Reward:  4100.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 129
+Reward:  4050.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 130
+Reward:  4534.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 131
+Reward:  4163.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 132
+Reward:  4340.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 133
+Reward:  4158.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 134
+Reward:  4132.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 135
+Reward:  3925.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 136
+Reward:  3981.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 137
+Reward:  3965.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 138
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 139
+Reward:  3972.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 140
+Reward:  4281.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 141
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 142
+Reward:  4250.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 143
+Reward:  4340.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 144
+Reward:  3560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 145
+Reward:  4474.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 146
+Reward:  4282.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 147
+Reward:  4112.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 148
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 149
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 150
+Reward:  4253.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 151
+Reward:  4062.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 152
+Reward:  4334.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 153
+Reward:  4316.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 154
+Reward:  4149.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 155
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 156
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 157
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 158
+Reward:  4322.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 159
+Reward:  4147.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 160
+Reward:  4531.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 161
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 162
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 163
+Reward:  4262.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 164
+Reward:  4103.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 165
+Reward:  3952.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 166
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 167
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 168
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 169
+Reward:  4202.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 170
+Reward:  4162.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 171
+Reward:  4132.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 172
+Reward:  4280.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 173
+Reward:  3963.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 174
+Reward:  4479.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 175
+Reward:  3924.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 176
+Reward:  4146.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 177
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 178
+Reward:  4018.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 179
+Reward:  3771.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 180
+Reward:  3936.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 181
+Reward:  4509.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 182
+Reward:  4158.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 183
+Reward:  4109.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 184
+Reward:  4334.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 185
+Reward:  4070.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 186
+Reward:  4100.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 187
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 188
+Reward:  4283.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 189
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 190
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 191
+Reward:  4334.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 192
+Reward:  4169.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 193
+Reward:  4331.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 194
+Reward:  4501.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 195
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 196
+Reward:  4155.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 197
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 198
+Reward:  4156.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 199
+Reward:  4254.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 200
+Reward:  4476.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 201
+Reward:  4340.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 202
+Reward:  4314.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 203
+Reward:  4477.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 204
+Reward:  4137.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 205
+Reward:  4150.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 206
+Reward:  4520.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 207
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 208
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 209
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 210
+Reward:  4306.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 211
+Reward:  4157.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 212
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 213
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 214
+Reward:  3962.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 215
+Reward:  4342.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 216
+Reward:  4331.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 217
+Reward:  4125.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 218
+Reward:  4166.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 219
+Reward:  4318.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 220
+Reward:  4323.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 221
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 222
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 223
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 224
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 225
+Reward:  4164.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 226
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 227
+Reward:  4131.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 228
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 229
+Reward:  4518.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 230
+Reward:  4291.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 231
+Reward:  4163.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 232
+Reward:  4297.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 233
+Reward:  4477.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 234
+Reward:  4511.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 235
+Reward:  4102.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 236
+Reward:  4078.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 237
+Reward:  4134.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 238
+Reward:  4473.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 239
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 240
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 241
+Reward:  4319.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 242
+Reward:  4341.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 243
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 244
+Reward:  4149.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 245
+Reward:  4287.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 246
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 247
+Reward:  4491.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 248
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 249
+Reward:  4330.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 250
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 251
+Reward:  4330.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 252
+Reward:  4329.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 253
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 254
+Reward:  4342.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 255
+Reward:  4317.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 256
+Reward:  4131.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 257
+Reward:  4532.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 258
+Reward:  3968.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 259
+Reward:  4149.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 260
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 261
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 262
+Reward:  3924.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 263
+Reward:  3957.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 264
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 265
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 266
+Reward:  4070.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 267
+Reward:  4332.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 268
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 269
+Reward:  4463.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 270
+Reward:  4153.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 271
+Reward:  4124.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 272
+Reward:  4490.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 273
+Reward:  4514.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 274
+Reward:  4095.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 275
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 276
+Reward:  4086.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 277
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 278
+Reward:  4479.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 279
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 280
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 281
+Reward:  4517.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 282
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 283
+Reward:  4329.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 284
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 285
+Reward:  4336.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 286
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 287
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 288
+Reward:  4168.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 289
+Reward:  3755.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 290
+Reward:  4200.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 291
+Reward:  4498.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 292
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 293
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 294
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 295
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 296
+Reward:  4295.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 297
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 298
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 299
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 300
+Reward:  4502.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 301
+Reward:  4334.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 302
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 303
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 304
+Reward:  4325.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 305
+Reward:  3904.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 306
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 307
+Reward:  4167.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 308
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 309
+Reward:  4487.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 310
+Reward:  4263.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 311
+Reward:  4146.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 312
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 313
+Reward:  4111.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 314
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 315
+Reward:  4183.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 316
+Reward:  4488.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 317
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 318
+Reward:  4510.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 319
+Reward:  4126.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 320
+Reward:  4142.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 321
+Reward:  4278.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 322
+Reward:  4319.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 323
+Reward:  4239.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 324
+Reward:  4523.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 325
+Reward:  4527.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 326
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 327
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 328
+Reward:  4451.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 329
+Reward:  4332.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 330
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 331
+Reward:  4503.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 332
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 333
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 334
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 335
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 336
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 337
+Reward:  4333.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 338
+Reward:  4470.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 339
+Reward:  4528.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 340
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 341
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 342
+Reward:  4504.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 343
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 344
+Reward:  4532.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 345
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 346
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 347
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 348
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 349
+Reward:  4517.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 350
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 351
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 352
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 353
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 354
+Reward:  4468.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 355
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 356
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 357
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 358
+Reward:  4303.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 359
+Reward:  4149.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 360
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 361
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 362
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 363
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 364
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 365
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 366
+Reward:  4329.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 367
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 368
+Reward:  4313.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 369
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 370
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 371
+Reward:  4534.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 372
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 373
+Reward:  4494.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 374
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 375
+Reward:  4129.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 376
+Reward:  3950.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 377
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 378
+Reward:  4332.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 379
+Reward:  4322.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 380
+Reward:  4320.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 381
+Reward:  4342.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 382
+Reward:  4137.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 383
+Reward:  4526.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 384
+Reward:  4342.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 385
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 386
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 387
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 388
+Reward:  4150.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 389
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 390
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 391
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 392
+Reward:  4265.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 393
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 394
+Reward:  4343.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 395
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 396
+Reward:  4532.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 397
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 398
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 399
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 400
+Reward:  4340.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 401
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 402
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 403
+Reward:  4168.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 404
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 405
+Reward:  4330.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 406
+Reward:  4514.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 407
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 408
+Reward:  4311.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 409
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 410
+Reward:  3962.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 411
+Reward:  4262.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 412
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 413
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 414
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 415
+Reward:  4276.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 416
+Reward:  4253.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 417
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 418
+Reward:  4108.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 419
+Reward:  4480.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 420
+Reward:  4532.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 421
+Reward:  4332.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 422
+Reward:  4275.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 423
+Reward:  4499.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 424
+Reward:  4523.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 425
+Reward:  4286.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 426
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 427
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 428
+Reward:  4156.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 429
+Reward:  4485.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 430
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 431
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 432
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 433
+Reward:  4336.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 434
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 435
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 436
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 437
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 438
+Reward:  4534.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 439
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 440
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 441
+Reward:  3742.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 442
+Reward:  4123.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 443
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 444
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 445
+Reward:  4338.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 446
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 447
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 448
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 449
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 450
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 451
+Reward:  4299.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 452
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 453
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 454
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 455
+Reward:  4139.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 456
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 457
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 458
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 459
+Reward:  4524.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 460
+Reward:  4343.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 461
+Reward:  4527.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 462
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 463
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 464
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 465
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 466
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 467
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 468
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 469
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 470
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 471
+Reward:  4498.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 472
+Reward:  4522.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 473
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 474
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 475
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 476
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 477
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 478
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 479
+Reward:  4327.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 480
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 481
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 482
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 483
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 484
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 485
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 486
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 487
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 488
+Reward:  4371.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 489
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 490
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 491
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 492
+Reward:  4144.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 493
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 494
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 495
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 496
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 497
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 498
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 499
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 500
+Reward:  4513.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 501
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 502
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 503
+Reward:  4176.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 504
+Reward:  4520.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 505
+Reward:  4370.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 506
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 507
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 508
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 509
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 510
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 511
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 512
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 513
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 514
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 515
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 516
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 517
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 518
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 519
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 520
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 521
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 522
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 523
+Reward:  4181.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 524
+Reward:  4371.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 525
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 526
+Reward:  4370.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 527
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 528
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 529
+Reward:  4272.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 530
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 531
+Reward:  4376.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 532
+Reward:  4373.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 533
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 534
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 535
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 536
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 537
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 538
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 539
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 540
+Reward:  4317.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 541
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 542
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 543
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 544
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 545
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 546
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 547
+Reward:  4518.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 548
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 549
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 550
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 551
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 552
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 553
+Reward:  4152.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 554
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 555
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 556
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 557
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 558
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 559
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 560
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 561
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 562
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 563
+Reward:  4518.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 564
+Reward:  4506.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 565
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 566
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 567
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 568
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 569
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 570
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 571
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 572
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 573
+Reward:  4522.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 574
+Reward:  4521.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 575
+Reward:  4318.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 576
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 577
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 578
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 579
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 580
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 581
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 582
+Reward:  4267.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 583
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 584
+Reward:  4564.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 585
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 586
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 587
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 588
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 589
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 590
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 591
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 592
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 593
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 594
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 595
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 596
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 597
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 598
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 599
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 600
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 601
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 602
+Reward:  4163.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 603
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 604
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 605
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 606
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 607
+Reward:  4470.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 608
+Reward:  4524.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 609
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 610
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 611
+Reward:  4157.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 612
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 613
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 614
+Reward:  4495.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 615
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 616
+Reward:  4166.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 617
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 618
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 619
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 620
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 621
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 622
+Reward:  4145.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 623
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 624
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 625
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 626
+Reward:  4154.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 627
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 628
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 629
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 630
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 631
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 632
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 633
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 634
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 635
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 636
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 637
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 638
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 639
+Reward:  4523.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 640
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 641
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 642
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 643
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 644
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 645
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 646
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 647
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 648
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 649
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 650
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 651
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 652
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 653
+Reward:  4257.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 654
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 655
+Reward:  4082.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 656
+Reward:  4169.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 657
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 658
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 659
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 660
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 661
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 662
+Reward:  4505.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 663
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 664
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 665
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 666
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 667
+Reward:  4508.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 668
+Reward:  4290.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 669
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 670
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 671
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 672
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 673
+Reward:  4518.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 674
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 675
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 676
+Reward:  4309.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 677
+Reward:  4138.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 678
+Reward:  4163.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 679
+Reward:  4337.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 680
+Reward:  4300.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 681
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 682
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 683
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 684
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 685
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 686
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 687
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 688
+Reward:  4169.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 689
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 690
+Reward:  4526.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 691
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 692
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 693
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 694
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 695
+Reward:  4454.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 696
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 697
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 698
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 699
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 700
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 701
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 702
+Reward:  4337.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 703
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 704
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 705
+Reward:  4166.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 706
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 707
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 708
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 709
+Reward:  4343.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 710
+Reward:  4530.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 711
+Reward:  4149.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 712
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 713
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 714
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 715
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 716
+Reward:  4277.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 717
+Reward:  4296.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 718
+Reward:  4503.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 719
+Reward:  4295.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 720
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 721
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 722
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 723
+Reward:  4320.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 724
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 725
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 726
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 727
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 728
+Reward:  4531.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 729
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 730
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 731
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 732
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 733
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 734
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 735
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 736
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 737
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 738
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 739
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 740
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 741
+Reward:  4157.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 742
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 743
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 744
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 745
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 746
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 747
+Reward:  4473.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 748
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 749
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 750
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 751
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 752
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 753
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 754
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 755
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 756
+Reward:  4522.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 757
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 758
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 759
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 760
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 761
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 762
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 763
+Reward:  4167.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 764
+Reward:  4506.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 765
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 766
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 767
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 768
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 769
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 770
+Reward:  4307.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 771
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 772
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 773
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 774
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 775
+Reward:  4528.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 776
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 777
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 778
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 779
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 780
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 781
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 782
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 783
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 784
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 785
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 786
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 787
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 788
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 789
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 790
+Reward:  4564.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 791
+Reward:  4484.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 792
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 793
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 794
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 795
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 796
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 797
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 798
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 799
+Reward:  4503.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 800
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 801
+Reward:  4526.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 802
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 803
+Reward:  4524.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 804
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 805
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 806
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 807
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 808
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 809
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 810
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 811
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 812
+Reward:  4341.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 813
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 814
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 815
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 816
+Reward:  4168.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 817
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 818
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 819
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 820
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 821
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 822
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 823
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 824
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 825
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 826
+Reward:  4154.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 827
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 828
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 829
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 830
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 831
+Reward:  4502.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 832
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 833
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 834
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 835
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 836
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 837
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 838
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 839
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 840
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 841
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 842
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 843
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 844
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 845
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 846
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 847
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 848
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 849
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 850
+Reward:  4501.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 851
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 852
+Reward:  4453.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 853
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 854
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 855
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 856
+Reward:  4280.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 857
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 858
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 859
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 860
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 861
+Reward:  4521.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 862
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 863
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 864
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 865
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 866
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 867
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 868
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 869
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 870
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 871
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 872
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 873
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 874
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 875
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 876
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 877
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 878
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 879
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 880
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 881
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 882
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 883
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 884
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 885
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 886
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 887
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 888
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 889
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 890
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 891
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 892
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 893
+Reward:  4523.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 894
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 895
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 896
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 897
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 898
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 899
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 900
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 901
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 902
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 903
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 904
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 905
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 906
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 907
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 908
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 909
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 910
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 911
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 912
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 913
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 914
+Reward:  4338.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 915
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 916
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 917
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 918
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 919
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 920
+Reward:  4496.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 921
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 922
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 923
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 924
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 925
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 926
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 927
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 928
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 929
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 930
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 931
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 932
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 933
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 934
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 935
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 936
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 937
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 938
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 939
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 940
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 941
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 942
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 943
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 944
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 945
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 946
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 947
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 948
+Reward:  4034.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 949
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 950
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 951
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 952
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 953
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 954
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 955
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 956
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 957
+Reward:  4153.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 958
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 959
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 960
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 961
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 962
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 963
+Reward:  4078.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 964
+Reward:  4251.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 965
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 966
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 967
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 968
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 969
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 970
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 971
+Reward:  4105.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 972
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 973
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 974
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 975
+Reward:  4144.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 976
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 977
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 978
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 979
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 980
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 981
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 982
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 983
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 984
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 985
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 986
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 987
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 988
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 989
+Reward:  4485.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 990
+Reward:  4393.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 991
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 992
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 993
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 994
+Reward:  4326.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 995
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 996
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 997
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 998
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 999
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1000
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1001
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1002
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1003
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1004
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1005
+Reward:  4509.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1006
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1007
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1008
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1009
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1010
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1011
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1012
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1013
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1014
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1015
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1016
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1017
+Reward:  4168.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1018
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1019
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1020
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1021
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1022
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1023
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1024
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1025
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1026
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1027
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1028
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1029
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1030
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1031
+Reward:  4158.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1032
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1033
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1034
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1035
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1036
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1037
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1038
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1039
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1040
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1041
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1042
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1043
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1044
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1045
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1046
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1047
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1048
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1049
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1050
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1051
+Reward:  4338.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1052
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1053
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1054
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1055
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1056
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1057
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1058
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1059
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1060
+Reward:  4459.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1061
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1062
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1063
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1064
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1065
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1066
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1067
+Reward:  4333.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1068
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1069
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1070
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1071
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1072
+Reward:  4490.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1073
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1074
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1075
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1076
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1077
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1078
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1079
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1080
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1081
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1082
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1083
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1084
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1085
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1086
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1087
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1088
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1089
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1090
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1091
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1092
+Reward:  4508.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1093
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1094
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1095
+Reward:  4155.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1096
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1097
+Reward:  4166.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1098
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1099
+Reward:  4152.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1100
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1101
+Reward:  4532.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1102
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1103
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1104
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1105
+Reward:  4528.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1106
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1107
+Reward:  4313.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1108
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1109
+Reward:  4337.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1110
+Reward:  4316.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1111
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1112
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1113
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1114
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1115
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1116
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1117
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1118
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1119
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1120
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1121
+Reward:  4518.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1122
+Reward:  4505.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1123
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1124
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1125
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1126
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1127
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1128
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1129
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1130
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1131
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1132
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1133
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1134
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1135
+Reward:  4468.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1136
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1137
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1138
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1139
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1140
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1141
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1142
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1143
+Reward:  4533.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1144
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1145
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1146
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1147
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1148
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1149
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1150
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1151
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1152
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1153
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1154
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1155
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1156
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1157
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1158
+Reward:  4484.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1159
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1160
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1161
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1162
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1163
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1164
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1165
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1166
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1167
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1168
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1169
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1170
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1171
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1172
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1173
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1174
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1175
+Reward:  4500.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1176
+Reward:  4526.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1177
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1178
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1179
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1180
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1181
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1182
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1183
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1184
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1185
+Reward:  4568.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1186
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1187
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1188
+Reward:  4503.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1189
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1190
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1191
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1192
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1193
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1194
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1195
+Reward:  4331.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1196
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1197
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1198
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1199
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1200
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1201
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1202
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1203
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1204
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1205
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1206
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1207
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1208
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1209
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1210
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1211
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1212
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1213
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1214
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1215
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1216
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1217
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1218
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1219
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1220
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1221
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1222
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1223
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1224
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1225
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1226
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1227
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1228
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1229
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1230
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1231
+Reward:  4516.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1232
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1233
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1234
+Reward:  4268.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1235
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1236
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1237
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1238
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1239
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1240
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1241
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1242
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1243
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1244
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1245
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1246
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1247
+Reward:  4527.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1248
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1249
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1250
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1251
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1252
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1253
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1254
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1255
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1256
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1257
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1258
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1259
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1260
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1261
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1262
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1263
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1264
+Reward:  4521.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1265
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1266
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1267
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1268
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1269
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1270
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1271
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1272
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1273
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1274
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1275
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1276
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1277
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1278
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1279
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1280
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1281
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1282
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1283
+Reward:  4493.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1284
+Reward:  4322.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1285
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1286
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1287
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1288
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1289
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1290
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1291
+Reward:  4341.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1292
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1293
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1294
+Reward:  4328.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1295
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1296
+Reward:  4340.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1297
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1298
+Reward:  4086.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1299
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1300
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1301
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1302
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1303
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1304
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1305
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1306
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1307
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1308
+Reward:  4343.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1309
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1310
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1311
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1312
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1313
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1314
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1315
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1316
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1317
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1318
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1319
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1320
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1321
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1322
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1323
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1324
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1325
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1326
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1327
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1328
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1329
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1330
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1331
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1332
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1333
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1334
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1335
+Reward:  4504.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1336
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1337
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1338
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1339
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1340
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1341
+Reward:  4152.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1342
+Reward:  3775.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1343
+Reward:  3783.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1344
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1345
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1346
+Reward:  4481.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1347
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1348
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1349
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1350
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1351
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1352
+Reward:  4516.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1353
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1354
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1355
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1356
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1357
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1358
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1359
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1360
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1361
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1362
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1363
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1364
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1365
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1366
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1367
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1368
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1369
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1370
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1371
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1372
+Reward:  4107.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1373
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1374
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1375
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1376
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1377
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1378
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1379
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1380
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1381
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1382
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1383
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1384
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1385
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1386
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1387
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1388
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1389
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1390
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1391
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1392
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1393
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1394
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1395
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1396
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1397
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1398
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1399
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1400
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1401
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1402
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1403
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1404
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1405
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1406
+Reward:  4338.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1407
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1408
+Reward:  4481.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1409
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1410
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1411
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1412
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1413
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1414
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1415
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1416
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1417
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1418
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1419
+Reward:  4517.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1420
+Reward:  4329.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1421
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1422
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1423
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1424
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1425
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1426
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1427
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1428
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1429
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1430
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1431
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1432
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1433
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1434
+Reward:  4511.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1435
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1436
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1437
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1438
+Reward:  4511.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1439
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1440
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1441
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1442
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1443
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1444
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1445
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1446
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1447
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1448
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1449
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1450
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1451
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1452
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1453
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1454
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1455
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1456
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1457
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1458
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1459
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1460
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1461
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1462
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1463
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1464
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1465
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1466
+Reward:  4525.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1467
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1468
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1469
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1470
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1471
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1472
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1473
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1474
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1475
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1476
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1477
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1478
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1479
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1480
+Reward:  4160.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1481
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1482
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1483
+Reward:  4173.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1484
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1485
+Reward:  4314.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1486
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1487
+Reward:  4498.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1488
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1489
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1490
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1491
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1492
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1493
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1494
+Reward:  4335.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1495
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1496
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1497
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1498
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1499
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1500
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1501
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1502
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1503
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1504
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1505
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1506
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1507
+Reward:  4526.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1508
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1509
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1510
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1511
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1512
+Reward:  4335.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1513
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1514
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1515
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1516
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1517
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1518
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1519
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1520
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1521
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1522
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1523
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1524
+Reward:  4520.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1525
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1526
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1527
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1528
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1529
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1530
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1531
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1532
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1533
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1534
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1535
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1536
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1537
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1538
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1539
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1540
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1541
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1542
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1543
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1544
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1545
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1546
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1547
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1548
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1549
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1550
+Reward:  4512.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1551
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1552
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1553
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1554
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1555
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1556
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1557
+Reward:  4483.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1558
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1559
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1560
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1561
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1562
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1563
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1564
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1565
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1566
+Reward:  4313.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1567
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1568
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1569
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1570
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1571
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1572
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1573
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1574
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1575
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1576
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1577
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1578
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1579
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1580
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1581
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1582
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1583
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1584
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1585
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1586
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1587
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1588
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1589
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1590
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1591
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1592
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1593
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1594
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1595
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1596
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1597
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1598
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1599
+Reward:  4469.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1600
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1601
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1602
+Reward:  4520.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1603
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1604
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1605
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1606
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1607
+Reward:  4322.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1608
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1609
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1610
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1611
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1612
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1613
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1614
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1615
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1616
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1617
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1618
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1619
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1620
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1621
+Reward:  4518.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1622
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1623
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1624
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1625
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1626
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1627
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1628
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1629
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1630
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1631
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1632
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1633
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1634
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1635
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1636
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1637
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1638
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1639
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1640
+Reward:  4529.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1641
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1642
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1643
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1644
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1645
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1646
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1647
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1648
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1649
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1650
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1651
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1652
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1653
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1654
+Reward:  4517.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1655
+Reward:  4489.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1656
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1657
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1658
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1659
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1660
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1661
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1662
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1663
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1664
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1665
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1666
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1667
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1668
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1669
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1670
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1671
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1672
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1673
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1674
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1675
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1676
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1677
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1678
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1679
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1680
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1681
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1682
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1683
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1684
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1685
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1686
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1687
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1688
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1689
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1690
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1691
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1692
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1693
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1694
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1695
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1696
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1697
+Reward:  4370.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1698
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1699
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1700
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1701
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1702
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1703
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1704
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1705
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1706
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1707
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1708
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1709
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1710
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1711
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1712
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1713
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1714
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1715
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1716
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1717
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1718
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1719
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1720
+Reward:  4319.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1721
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1722
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1723
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1724
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1725
+Reward:  4492.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1726
+Reward:  4564.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1727
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1728
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1729
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1730
+Reward:  4150.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1731
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1732
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1733
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1734
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1735
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1736
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1737
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1738
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1739
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1740
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1741
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1742
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1743
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1744
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1745
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1746
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1747
+Reward:  4439.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1748
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1749
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1750
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1751
+Reward:  4519.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1752
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1753
+Reward:  4372.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1754
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1755
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1756
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1757
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1758
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1759
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1760
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1761
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1762
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1763
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1764
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1765
+Reward:  4164.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1766
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1767
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1768
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1769
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1770
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1771
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1772
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1773
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1774
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1775
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1776
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1777
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1778
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1779
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1780
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1781
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1782
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1783
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1784
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1785
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1786
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1787
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1788
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1789
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1790
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1791
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1792
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1793
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1794
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1795
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1796
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1797
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1798
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1799
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1800
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1801
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1802
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1803
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1804
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1805
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1806
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1807
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1808
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1809
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1810
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1811
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1812
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1813
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1814
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1815
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1816
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1817
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1818
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1819
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1820
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1821
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1822
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1823
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1824
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1825
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1826
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1827
+Reward:  4152.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1828
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1829
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1830
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1831
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1832
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1833
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1834
+Reward:  4154.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1835
+Reward:  4156.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1836
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1837
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1838
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1839
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1840
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1841
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1842
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1843
+Reward:  4166.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1844
+Reward:  4525.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1845
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1846
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1847
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1848
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1849
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1850
+Reward:  4088.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1851
+Reward:  4156.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1852
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1853
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1854
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1855
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1856
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1857
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1858
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1859
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1860
+Reward:  4522.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1861
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1862
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1863
+Reward:  4459.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1864
+Reward:  4156.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1865
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1866
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1867
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1868
+Reward:  4494.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1869
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1870
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1871
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1872
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1873
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1874
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1875
+Reward:  3976.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1876
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1877
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1878
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1879
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1880
+Reward:  4166.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1881
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1882
+Reward:  4137.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1883
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1884
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1885
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1886
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1887
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1888
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1889
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1890
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1891
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1892
+Reward:  4166.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1893
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1894
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1895
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1896
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1897
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1898
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1899
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1900
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1901
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1902
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1903
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1904
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1905
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1906
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1907
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1908
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1909
+Reward:  4316.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1910
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1911
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1912
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1913
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1914
+Reward:  4174.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1915
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1916
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1917
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1918
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1919
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1920
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1921
+Reward:  4158.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1922
+Reward:  4154.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1923
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1924
+Reward:  4505.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1925
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1926
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1927
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1928
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1929
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1930
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1931
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1932
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1933
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1934
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1935
+Reward:  4337.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1936
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1937
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1938
+Reward:  4530.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1939
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1940
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1941
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1942
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1943
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1944
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1945
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1946
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1947
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1948
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1949
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1950
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1951
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1952
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1953
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1954
+Reward:  4323.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1955
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1956
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1957
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1958
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1959
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1960
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1961
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1962
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1963
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1964
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1965
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1966
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1967
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1968
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1969
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1970
+Reward:  3959.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1971
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1972
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1973
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1974
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1975
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1976
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1977
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1978
+Reward:  4149.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1979
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1980
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1981
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1982
+Reward:  4491.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1983
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1984
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1985
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1986
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1987
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1988
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1989
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1990
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1991
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1992
+Reward:  4499.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1993
+Reward:  4165.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1994
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1995
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1996
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1997
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1998
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 1999
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2000
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2001
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2002
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2003
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2004
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2005
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2006
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2007
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2008
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2009
+Reward:  4505.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2010
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2011
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2012
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2013
+Reward:  4172.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2014
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2015
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2016
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2017
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2018
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2019
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2020
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2021
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2022
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2023
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2024
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2025
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2026
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2027
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2028
+Reward:  4534.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2029
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2030
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2031
+Reward:  4373.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2032
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2033
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2034
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2035
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2036
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2037
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2038
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2039
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2040
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2041
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2042
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2043
+Reward:  4154.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2044
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2045
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2046
+Reward:  4537.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2047
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2048
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2049
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2050
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2051
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2052
+Reward:  4141.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2053
+Reward:  4164.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2054
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2055
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2056
+Reward:  4164.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2057
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2058
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2059
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2060
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2061
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2062
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2063
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2064
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2065
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2066
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2067
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2068
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2069
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2070
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2071
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2072
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2073
+Reward:  4564.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2074
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2075
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2076
+Reward:  4436.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2077
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2078
+Reward:  4370.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2079
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2080
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2081
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2082
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2083
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2084
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2085
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2086
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2087
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2088
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2089
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2090
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2091
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2092
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2093
+Reward:  4341.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2094
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2095
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2096
+Reward:  4372.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2097
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2098
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2099
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2100
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2101
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2102
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2103
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2104
+Reward:  4561.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2105
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2106
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2107
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2108
+Reward:  4535.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2109
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2110
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2111
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2112
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2113
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2114
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2115
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2116
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2117
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2118
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2119
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2120
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2121
+Reward:  4317.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2122
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2123
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2124
+Reward:  4566.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2125
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2126
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2127
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2128
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2129
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2130
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2131
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2132
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2133
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2134
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2135
+Reward:  4174.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2136
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2137
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2138
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2139
+Reward:  4565.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2140
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2141
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2142
+Reward:  4530.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2143
+Reward:  4532.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2144
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2145
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2146
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2147
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2148
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2149
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2150
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2151
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2152
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2153
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2154
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2155
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2156
+Reward:  4562.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2157
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2158
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2159
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2160
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2161
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2162
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2163
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2164
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2165
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2166
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2167
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2168
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2169
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2170
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2171
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2172
+Reward:  4499.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2173
+Reward:  4506.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2174
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2175
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2176
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2177
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2178
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2179
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2180
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2181
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2182
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2183
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2184
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2185
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2186
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2187
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2188
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2189
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2190
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2191
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2192
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2193
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2194
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2195
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2196
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2197
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2198
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2199
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2200
+Reward:  4560.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2201
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2202
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2203
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2204
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2205
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2206
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2207
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2208
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2209
+Reward:  4132.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2210
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2211
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2212
+Reward:  4312.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2213
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2214
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2215
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2216
+Reward:  4164.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2217
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2218
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2219
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2220
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2221
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2222
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2223
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2224
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2225
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2226
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2227
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2228
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2229
+Reward:  3769.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2230
+Reward:  4496.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2231
+Reward:  3969.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2232
+Reward:  3971.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2233
+Reward:  4298.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2234
+Reward:  4143.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2235
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2236
+Reward:  4341.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2237
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2238
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2239
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2240
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2241
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2242
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2243
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2244
+Reward:  4539.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2245
+Reward:  4316.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2246
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2247
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2248
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2249
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2250
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2251
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2252
+Reward:  4540.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2253
+Reward:  4289.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2254
+Reward:  4342.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2255
+Reward:  4342.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2256
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2257
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2258
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2259
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2260
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2261
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2262
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2263
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2264
+Reward:  4538.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2265
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2266
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2267
+Reward:  4541.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2268
+Reward:  4490.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2269
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2270
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2271
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2272
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2273
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2274
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2275
+Reward:  4512.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2276
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2277
+Reward:  4149.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2278
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2279
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2280
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2281
+Reward:  4344.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2282
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2283
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2284
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2285
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2286
+Reward:  4141.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2287
+Reward:  4547.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2288
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2289
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2290
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2291
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2292
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2293
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2294
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2295
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2296
+Reward:  4549.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2297
+Reward:  4279.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2298
+Reward:  4151.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2299
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2300
+Reward:  4158.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2301
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2302
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2303
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2304
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2305
+Reward:  4550.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2306
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2307
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2308
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2309
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2310
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2311
+Reward:  4157.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2312
+Reward:  4352.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2313
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2314
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2315
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2316
+Reward:  3966.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2317
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2318
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2319
+Reward:  4155.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2320
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2321
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2322
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2323
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2324
+Reward:  4155.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2325
+Reward:  4346.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2326
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2327
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2328
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2329
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2330
+Reward:  4338.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2331
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2332
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2333
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2334
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2335
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2336
+Reward:  4147.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2337
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2338
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2339
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2340
+Reward:  4350.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2341
+Reward:  4141.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2342
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2343
+Reward:  4297.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2344
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2345
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2346
+Reward:  4162.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2347
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2348
+Reward:  4159.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2349
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2350
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2351
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2352
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2353
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2354
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2355
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2356
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2357
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2358
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2359
+Reward:  4162.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2360
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2361
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2362
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2363
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2364
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2365
+Reward:  3914.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2366
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2367
+Reward:  4161.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2368
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2369
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2370
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2371
+Reward:  4559.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2372
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2373
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2374
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2375
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2376
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2377
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2378
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2379
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2380
+Reward:  4345.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2381
+Reward:  4146.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2382
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2383
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2384
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2385
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2386
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2387
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2388
+Reward:  4551.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2389
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2390
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2391
+Reward:  4154.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2392
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2393
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2394
+Reward:  4354.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2395
+Reward:  4368.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2396
+Reward:  4554.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2397
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2398
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2399
+Reward:  4143.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2400
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2401
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2402
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2403
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2404
+Reward:  4167.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2405
+Reward:  4543.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2406
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2407
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2408
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2409
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2410
+Reward:  4358.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2411
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2412
+Reward:  4160.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2413
+Reward:  4531.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2414
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2415
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2416
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2417
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2418
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2419
+Reward:  4359.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2420
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2421
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2422
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2423
+Reward:  4337.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2424
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2425
+Reward:  3976.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2426
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2427
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2428
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2429
+Reward:  4270.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2430
+Reward:  4351.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2431
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2432
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2433
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2434
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2435
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2436
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2437
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2438
+Reward:  4542.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2439
+Reward:  4369.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2440
+Reward:  4370.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2441
+Reward:  4261.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2442
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2443
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2444
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2445
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2446
+Reward:  4287.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2447
+Reward:  4326.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2448
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2449
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2450
+Reward:  4363.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2451
+Reward:  4347.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2452
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2453
+Reward:  4360.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2454
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2455
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2456
+Reward:  4338.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2457
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2458
+Reward:  4361.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2459
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2460
+Reward:  4555.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2461
+Reward:  4164.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2462
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2463
+Reward:  4544.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2464
+Reward:  4366.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2465
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2466
+Reward:  4292.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2467
+Reward:  4364.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2468
+Reward:  4152.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2469
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2470
+Reward:  4365.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2471
+Reward:  4367.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2472
+Reward:  4357.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2473
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2474
+Reward:  4318.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2475
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2476
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2477
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2478
+Reward:  4356.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2479
+Reward:  4552.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2480
+Reward:  4329.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2481
+Reward:  4536.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2482
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2483
+Reward:  4545.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2484
+Reward:  4523.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2485
+Reward:  4557.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2486
+Reward:  4362.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2487
+Reward:  4546.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2488
+Reward:  4558.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2489
+Reward:  4348.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2490
+Reward:  4349.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2491
+Reward:  4109.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2492
+Reward:  4355.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2493
+Reward:  4563.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2494
+Reward:  4556.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2495
+Reward:  4479.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2496
+Reward:  4353.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2497
+Reward:  4553.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2498
+Reward:  4548.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2499
+Reward:  4463.0
+Positive two pin num: 48/48
+
+New loop!
+Episode: 2500
+twoPinNum 48
+solution [[(25, 73, 1, 2, 7), (25, 73, 2, 2, 7), (25, 63.0, 2, 2, 6), (25, 53.0, 2, 2, 5), (25, 43.0, 2, 2, 4), (25, 43.0, 1, 2, 4), (15.0, 43.0, 1, 1, 4)], [(25, 73, 1, 2, 7), (35.0, 73, 1, 3, 7), (45.0, 73, 1, 4, 7), (55.0, 73, 1, 5, 7), (65.0, 73, 1, 6, 7)], [(3, 15, 1, 0, 1), (3, 15, 2, 0, 1), (3, 25.0, 2, 0, 2), (3, 35.0, 2, 0, 3), (3, 45.0, 2, 0, 4), (3, 45.0, 1, 0, 4), (13.0, 45.0, 1, 1, 4)], [(65, 78, 1, 6, 7), (65, 78, 2, 6, 7), (65, 68.0, 2, 6, 6), (65, 58.0, 2, 6, 5), (65, 48.0, 2, 6, 4), (65, 38.0, 2, 6, 3), (65, 38.0, 1, 6, 3), (55.0, 38.0, 1, 5, 3)], [(16, 47, 1, 1, 4), (26.0, 47, 1, 2, 4), (36.0, 47, 1, 3, 4), (36.0, 47, 2, 3, 4), (36.0, 57.0, 2, 3, 5), (36.0, 67.0, 2, 3, 6), (36.0, 77.0, 2, 3, 7), (36.0, 77.0, 1, 3, 7), (46.0, 77.0, 1, 4, 7)], [(45, 8, 1, 4, 0), (55.0, 8, 1, 5, 0), (65.0, 8, 1, 6, 0)], [(64, 53, 1, 6, 5), (54.0, 53, 1, 5, 5), (54.0, 53, 2, 5, 5), (54.0, 63.0, 2, 5, 6), (54.0, 73.0, 2, 5, 7), (54.0, 73.0, 1, 5, 7), (44.0, 73.0, 1, 4, 7)], [(64, 53, 1, 6, 5), (64, 53, 2, 6, 5), (64, 43.0, 2, 6, 4), (64, 33.0, 2, 6, 3), (64, 23.0, 2, 6, 2), (64, 13.0, 2, 6, 1), (64, 3.0, 2, 6, 0), (64, 3.0, 1, 6, 0)], [(8, 63, 1, 0, 6), (18.0, 63, 1, 1, 6), (28.0, 63, 1, 2, 6), (28.0, 63, 2, 2, 6), (28.0, 73.0, 2, 2, 7), (28.0, 73.0, 1, 2, 7)], [(53, 17, 1, 5, 1), (63.0, 17, 1, 6, 1), (73.0, 17, 1, 7, 1), (73.0, 17, 2, 7, 1), (73.0, 27.0, 2, 7, 2), (73.0, 37.0, 2, 7, 3), (73.0, 47.0, 2, 7, 4), (73.0, 57.0, 2, 7, 5), (73.0, 57.0, 1, 7, 5)], [(21, 70, 1, 2, 7), (31.0, 70, 1, 3, 7), (41.0, 70, 1, 4, 7), (51.0, 70, 1, 5, 7), (61.0, 70, 1, 6, 7), (71.0, 70, 1, 7, 7), (71.0, 70, 2, 7, 7), (71.0, 60.0, 2, 7, 6), (71.0, 50.0, 2, 7, 5), (71.0, 50.0, 1, 7, 5)], [(51, 1, 1, 5, 0), (41.0, 1, 1, 4, 0), (31.0, 1, 1, 3, 0), (31.0, 1, 2, 3, 0), (31.0, 11.0, 2, 3, 1), (31.0, 11.0, 1, 3, 1), (21.0, 11.0, 1, 2, 1)], [(51, 1, 1, 5, 0), (41.0, 1, 1, 4, 0), (41.0, 1, 2, 4, 0), (41.0, 11.0, 2, 4, 1), (41.0, 21.0, 2, 4, 2), (41.0, 31.0, 2, 4, 3), (41.0, 31.0, 1, 4, 3)], [(66, 76, 1, 6, 7), (56.0, 76, 1, 5, 7), (56.0, 76, 2, 5, 7), (56.0, 66.0, 2, 5, 6), (56.0, 56.0, 2, 5, 5), (56.0, 46.0, 2, 5, 4), (56.0, 36.0, 2, 5, 3), (56.0, 36.0, 1, 5, 3), (46.0, 36.0, 1, 4, 3)], [(62, 26, 1, 6, 2), (62, 26, 2, 6, 2), (62, 16.0, 2, 6, 1), (62, 6.0, 2, 6, 0), (62, 6.0, 1, 6, 0), (52.0, 6.0, 1, 5, 0), (42.0, 6.0, 1, 4, 0)], [(62, 26, 1, 6, 2), (52.0, 26, 1, 5, 2), (52.0, 26, 2, 5, 2), (52.0, 36.0, 2, 5, 3), (52.0, 36.0, 1, 5, 3)], [(62, 26, 1, 6, 2), (72.0, 26, 1, 7, 2), (72.0, 26, 2, 7, 2), (72.0, 36.0, 2, 7, 3), (72.0, 46.0, 2, 7, 4), (72.0, 56.0, 2, 7, 5), (72.0, 66.0, 2, 7, 6), (72.0, 76.0, 2, 7, 7), (72.0, 76.0, 1, 7, 7)], [(51, 37, 1, 5, 3), (41.0, 37, 1, 4, 3), (31.0, 37, 1, 3, 3), (31.0, 37, 2, 3, 3), (31.0, 47.0, 2, 3, 4), (31.0, 57.0, 2, 3, 5), (31.0, 67.0, 2, 3, 6), (31.0, 77.0, 2, 3, 7), (31.0, 77.0, 1, 3, 7)], [(3, 67, 1, 0, 6), (13.0, 67, 1, 1, 6), (23.0, 67, 1, 2, 6), (33.0, 67, 1, 3, 6), (33.0, 67, 2, 3, 6), (33.0, 77.0, 2, 3, 7), (33.0, 77.0, 1, 3, 7)], [(3, 67, 1, 0, 6), (3, 67, 2, 0, 6), (3, 57.0, 2, 0, 5), (3, 47.0, 2, 0, 4), (3, 37.0, 2, 0, 3), (3, 27.0, 2, 0, 2), (3, 17.0, 2, 0, 1), (3, 17.0, 1, 0, 1)], [(38, 74, 1, 3, 7), (48.0, 74, 1, 4, 7), (48.0, 74, 2, 4, 7), (48.0, 64.0, 2, 4, 6), (48.0, 64.0, 1, 4, 6), (58.0, 64.0, 1, 5, 6)], [(38, 74, 1, 3, 7), (38, 74, 2, 3, 7), (38, 64.0, 2, 3, 6), (38, 54.0, 2, 3, 5), (38, 54.0, 1, 3, 5), (28.0, 54.0, 1, 2, 5)], [(28, 53, 1, 2, 5), (18.0, 53, 1, 1, 5), (18.0, 53, 2, 1, 5), (18.0, 43.0, 2, 1, 4), (18.0, 33.0, 2, 1, 3), (18.0, 23.0, 2, 1, 2), (18.0, 13.0, 2, 1, 1), (18.0, 3.0, 2, 1, 0), (18.0, 3.0, 1, 1, 0)], [(38, 65, 1, 3, 6), (38, 65, 2, 3, 6), (38, 55.0, 2, 3, 5), (38, 45.0, 2, 3, 4), (38, 35.0, 2, 3, 3), (38, 25.0, 2, 3, 2), (38, 25.0, 1, 3, 2), (28.0, 25.0, 1, 2, 2)], [(26, 26, 1, 2, 2), (36.0, 26, 1, 3, 2), (46.0, 26, 1, 4, 2), (56.0, 26, 1, 5, 2), (66.0, 26, 1, 6, 2), (66.0, 26, 2, 6, 2), (66.0, 16.0, 2, 6, 1), (66.0, 6.0, 2, 6, 0), (66.0, 6.0, 1, 6, 0)], [(70, 13, 1, 7, 1), (70, 13, 2, 7, 1), (70, 23.0, 2, 7, 2), (70, 23.0, 1, 7, 2)], [(39, 35, 1, 3, 3), (49.0, 35, 1, 4, 3), (59.0, 35, 1, 5, 3), (69.0, 35, 1, 6, 3)], [(62, 73, 1, 6, 7), (62, 73, 2, 6, 7), (62, 63.0, 2, 6, 6), (62, 53.0, 2, 6, 5), (62, 43.0, 2, 6, 4), (62, 33.0, 2, 6, 3), (62, 33.0, 1, 6, 3)], [(64, 35, 1, 6, 3), (74.0, 35, 1, 7, 3), (74.0, 35, 2, 7, 3), (74.0, 25.0, 2, 7, 2), (74.0, 25.0, 1, 7, 2)], [(56, 6, 1, 5, 0), (46.0, 6, 1, 4, 0), (36.0, 6, 1, 3, 0), (26.0, 6, 1, 2, 0), (26.0, 6, 2, 2, 0), (26.0, 16.0, 2, 2, 1), (26.0, 26.0, 2, 2, 2), (26.0, 36.0, 2, 2, 3), (26.0, 46.0, 2, 2, 4), (26.0, 56.0, 2, 2, 5), (26.0, 66.0, 2, 2, 6), (26.0, 76.0, 2, 2, 7), (26.0, 76.0, 1, 2, 7)], [(73, 77, 1, 7, 7), (63.0, 77, 1, 6, 7), (53.0, 77, 1, 5, 7), (53.0, 77, 2, 5, 7), (53.0, 67.0, 2, 5, 6), (53.0, 57.0, 2, 5, 5), (53.0, 47.0, 2, 5, 4), (53.0, 47.0, 1, 5, 4), (43.0, 47.0, 1, 4, 4)], [(49, 41, 1, 4, 4), (59.0, 41, 1, 5, 4), (59.0, 41, 2, 5, 4), (59.0, 31.0, 2, 5, 3), (59.0, 21.0, 2, 5, 2), (59.0, 21.0, 1, 5, 2)], [(52, 29, 1, 5, 2), (42.0, 29, 1, 4, 2), (32.0, 29, 1, 3, 2)], [(29, 21, 1, 2, 2), (29, 21, 2, 2, 2), (29, 31.0, 2, 2, 3), (29, 41.0, 2, 2, 4), (29, 51.0, 2, 2, 5), (29, 61.0, 2, 2, 6), (29, 61.0, 1, 2, 6)], [(29, 21, 1, 2, 2), (39.0, 21, 1, 3, 2), (49.0, 21, 1, 4, 2)], [(41, 6, 1, 4, 0), (41, 6, 2, 4, 0), (41, 16.0, 2, 4, 1), (41, 16.0, 1, 4, 1), (31.0, 16.0, 1, 3, 1)], [(38, 14, 1, 3, 1), (48.0, 14, 1, 4, 1), (48.0, 14, 2, 4, 1), (48.0, 24.0, 2, 4, 2), (48.0, 24.0, 1, 4, 2)], [(1, 47, 1, 0, 4), (11.0, 47, 1, 1, 4), (21.0, 47, 1, 2, 4), (31.0, 47, 1, 3, 4), (41.0, 47, 1, 4, 4), (51.0, 47, 1, 5, 4), (51.0, 47, 2, 5, 4), (51.0, 37.0, 2, 5, 3), (51.0, 27.0, 2, 5, 2), (51.0, 17.0, 2, 5, 1), (51.0, 17.0, 1, 5, 1)], [(29, 73, 1, 2, 7), (39.0, 73, 1, 3, 7), (39.0, 73, 2, 3, 7), (39.0, 63.0, 2, 3, 6), (39.0, 63.0, 1, 3, 6), (49.0, 63.0, 1, 4, 6), (59.0, 63.0, 1, 5, 6), (59.0, 63.0, 2, 5, 6), (59.0, 53.0, 2, 5, 5), (59.0, 53.0, 1, 5, 5), (69.0, 53.0, 1, 6, 5)], [(70, 58, 1, 7, 5), (60.0, 58, 1, 6, 5)], [(61, 53, 1, 6, 5), (61, 53, 2, 6, 5), (61, 43.0, 2, 6, 4), (61, 43.0, 1, 6, 4)], [(21, 72, 1, 2, 7), (21, 72, 2, 2, 7), (21, 62.0, 2, 2, 6), (21, 52.0, 2, 2, 5), (21, 42.0, 2, 2, 4), (21, 32.0, 2, 2, 3), (21, 22.0, 2, 2, 2), (21, 22.0, 1, 2, 2), (31.0, 22.0, 1, 3, 2)], [(30, 55, 1, 3, 5), (40.0, 55, 1, 4, 5), (50.0, 55, 1, 5, 5), (50.0, 55, 2, 5, 5), (50.0, 45.0, 2, 5, 4), (50.0, 35.0, 2, 5, 3), (50.0, 25.0, 2, 5, 2), (50.0, 25.0, 1, 5, 2)], [(31, 6, 1, 3, 0), (21.0, 6, 1, 2, 0), (21.0, 6, 2, 2, 0), (21.0, 16.0, 2, 2, 1), (21.0, 26.0, 2, 2, 2), (21.0, 26.0, 1, 2, 2)], [(29, 22, 1, 2, 2), (39.0, 22, 1, 3, 2), (49.0, 22, 1, 4, 2), (59.0, 22, 1, 5, 2)], [(55, 79, 1, 5, 7), (45.0, 79, 1, 4, 7), (45.0, 79, 2, 4, 7), (45.0, 69.0, 2, 4, 6), (45.0, 69.0, 1, 4, 6), (35.0, 69.0, 1, 3, 6)], [(36, 40, 1, 3, 4), (46.0, 40, 1, 4, 4), (46.0, 40, 2, 4, 4), (46.0, 50.0, 2, 4, 5), (46.0, 50.0, 1, 4, 5)], [(46, 68, 1, 4, 6), (36.0, 68, 1, 3, 6), (26.0, 68, 1, 2, 6)]]
