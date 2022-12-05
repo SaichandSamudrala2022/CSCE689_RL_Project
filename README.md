@@ -7,7 +7,7 @@ conda activate DRL_GR_python3.8
 pip install -r ./requirements.txt
 
 OR if the above does not work:
-  Install stable-baseline3, gym, pytorch, and sb3-contrib
+  Install stable-baseline3, gym, pytorch,scipy, and sb3-contrib whose versions are mentioned in the requirements.txt.
 
 
 python GenSolEvalComp_Pipeline.py --RL_algo PPO
