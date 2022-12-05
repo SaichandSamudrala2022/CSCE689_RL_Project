@@ -1,3 +1,5 @@
+Install conda with python 3.8 version
+
 conda create --name DRL_GR_python3.8 python=3.8.10
 
 conda activate DRL_GR_python3.8
