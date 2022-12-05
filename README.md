@@ -21,4 +21,4 @@ If the above command fails in a machine with less than 10 cores, take a look at 
 
 Generate training logs in ./logs/ folder
 
-run "python reward_plotter.py" to generate the reward plot we have in the paper
+run "python reward_plotter.py" to generate the reward plot we have in the report.
